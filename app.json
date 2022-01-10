@@ -1,12 +1,12 @@
 {
   "expo": {
-    "name": "ToDoAppMobile",
+    "name": "To Do App",
     "slug": "ToDoAppMobile",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
+    "icon": "./assets/todoappicon.png",
     "splash": {
-      "image": "./assets/splash.png",
+      "image": "./assets/todoappsplash.png",
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
@@ -17,13 +17,17 @@
       "**/*"
     ],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.ToDoAppMobile",
+      "buildNumber": "1.0.0"
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#FFFFFF"
-      }
+      },
+      "package": "com.ToDoAppMobile",
+      "versionCode": 1
     },
     "web": {
       "favicon": "./assets/favicon.png"
